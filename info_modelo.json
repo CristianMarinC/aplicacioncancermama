@@ -1,0 +1,232 @@
+{
+  "features": [
+    "mean radius",
+    "mean texture",
+    "mean perimeter",
+    "mean area",
+    "mean smoothness",
+    "mean compactness",
+    "mean concavity",
+    "mean concave points",
+    "mean symmetry",
+    "mean fractal dimension",
+    "radius error",
+    "texture error",
+    "perimeter error",
+    "area error",
+    "smoothness error",
+    "compactness error",
+    "concavity error",
+    "concave points error",
+    "symmetry error",
+    "fractal dimension error",
+    "worst radius",
+    "worst texture",
+    "worst perimeter",
+    "worst area",
+    "worst smoothness",
+    "worst compactness",
+    "worst concavity",
+    "worst concave points",
+    "worst symmetry",
+    "worst fractal dimension"
+  ],
+  "rangos": {
+    "mean radius": {
+      "min": 6.981,
+      "max": 28.11,
+      "mean": 14.127291739894552
+    },
+    "mean texture": {
+      "min": 9.71,
+      "max": 39.28,
+      "mean": 19.289648506151142
+    },
+    "mean perimeter": {
+      "min": 43.79,
+      "max": 188.5,
+      "mean": 91.96903339191564
+    },
+    "mean area": {
+      "min": 143.5,
+      "max": 2501.0,
+      "mean": 654.8891036906855
+    },
+    "mean smoothness": {
+      "min": 0.05263,
+      "max": 0.1634,
+      "mean": 0.0963602811950791
+    },
+    "mean compactness": {
+      "min": 0.01938,
+      "max": 0.3454,
+      "mean": 0.10434098418277679
+    },
+    "mean concavity": {
+      "min": 0.0,
+      "max": 0.4268,
+      "mean": 0.0887993158172232
+    },
+    "mean concave points": {
+      "min": 0.0,
+      "max": 0.2012,
+      "mean": 0.04891914586994728
+    },
+    "mean symmetry": {
+      "min": 0.106,
+      "max": 0.304,
+      "mean": 0.18116186291739894
+    },
+    "mean fractal dimension": {
+      "min": 0.04996,
+      "max": 0.09744,
+      "mean": 0.06279760984182776
+    },
+    "radius error": {
+      "min": 0.1115,
+      "max": 2.873,
+      "mean": 0.40517205623901575
+    },
+    "texture error": {
+      "min": 0.3602,
+      "max": 4.885,
+      "mean": 1.2168534270650264
+    },
+    "perimeter error": {
+      "min": 0.757,
+      "max": 21.98,
+      "mean": 2.8660592267135327
+    },
+    "area error": {
+      "min": 6.802,
+      "max": 542.2,
+      "mean": 40.337079086116
+    },
+    "smoothness error": {
+      "min": 0.001713,
+      "max": 0.03113,
+      "mean": 0.007040978910369069
+    },
+    "compactness error": {
+      "min": 0.002252,
+      "max": 0.1354,
+      "mean": 0.025478138840070295
+    },
+    "concavity error": {
+      "min": 0.0,
+      "max": 0.396,
+      "mean": 0.03189371634446397
+    },
+    "concave points error": {
+      "min": 0.0,
+      "max": 0.05279,
+      "mean": 0.011796137082601054
+    },
+    "symmetry error": {
+      "min": 0.007882,
+      "max": 0.07895,
+      "mean": 0.02054229876977153
+    },
+    "fractal dimension error": {
+      "min": 0.0008948,
+      "max": 0.02984,
+      "mean": 0.0037949038664323374
+    },
+    "worst radius": {
+      "min": 7.93,
+      "max": 36.04,
+      "mean": 16.269189806678387
+    },
+    "worst texture": {
+      "min": 12.02,
+      "max": 49.54,
+      "mean": 25.677223198594024
+    },
+    "worst perimeter": {
+      "min": 50.41,
+      "max": 251.2,
+      "mean": 107.26121265377857
+    },
+    "worst area": {
+      "min": 185.2,
+      "max": 4254.0,
+      "mean": 880.5831282952548
+    },
+    "worst smoothness": {
+      "min": 0.07117,
+      "max": 0.2226,
+      "mean": 0.13236859402460457
+    },
+    "worst compactness": {
+      "min": 0.02729,
+      "max": 1.058,
+      "mean": 0.25426504393673116
+    },
+    "worst concavity": {
+      "min": 0.0,
+      "max": 1.252,
+      "mean": 0.27218848330404216
+    },
+    "worst concave points": {
+      "min": 0.0,
+      "max": 0.291,
+      "mean": 0.11460622319859401
+    },
+    "worst symmetry": {
+      "min": 0.1565,
+      "max": 0.6638,
+      "mean": 0.2900755711775044
+    },
+    "worst fractal dimension": {
+      "min": 0.05504,
+      "max": 0.2075,
+      "mean": 0.0839458172231986
+    }
+  },
+  "metricas": {
+    "accuracy": 0.9736842105263158,
+    "precision": 1.0,
+    "recall": 0.9285714285714286,
+    "f1": 0.9629629629629629,
+    "roc_auc": 0.9927248677248677
+  },
+  "mejores_parametros": {
+    "clf__C": "10",
+    "clf__gamma": "scale",
+    "clf__kernel": "rbf"
+  },
+  "comparacion": [
+    {
+      "Modelo": "Regresi\u00f3n Log\u00edstica",
+      "accuracy": 0.9736,
+      "precision": 0.9771,
+      "recall": 0.9529,
+      "f1": 0.964,
+      "roc_auc": 0.9958
+    },
+    {
+      "Modelo": "SVM (RBF)",
+      "accuracy": 0.9714,
+      "precision": 0.9769,
+      "recall": 0.9471,
+      "f1": 0.961,
+      "roc_auc": 0.9949
+    },
+    {
+      "Modelo": "Random Forest",
+      "accuracy": 0.9604,
+      "precision": 0.9584,
+      "recall": 0.9353,
+      "f1": 0.9461,
+      "roc_auc": 0.988
+    },
+    {
+      "Modelo": "KNN",
+      "accuracy": 0.9648,
+      "precision": 0.9875,
+      "recall": 0.9176,
+      "f1": 0.951,
+      "roc_auc": 0.9871
+    }
+  ]
+}
